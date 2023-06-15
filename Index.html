@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2023-06-15_Codewars_Kata8_Bit_Counting</title>
+</head>
+
+<body>
+
+    <script>
+
+        // DESCRIPTION:
+        // 
+        // Write a function that takes an integer as input, and returns the number of bits that are equal to 
+        // one in the binary representation of that number. You can guarantee that input is non-negative.
+        // 
+        // Example: The binary representation of 1234 is 10011010010, so the function should return 5 in this case
+
+        // My version
+
+        var countBits = function (n) {
+            // Program Me
+            return n.toString(2).match(/1/g).length;
+        };
+
+        console.log(countBits(1234));
+
+
+    </script>
+
+</body>
+
+</html>
